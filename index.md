@@ -1,37 +1,83 @@
-## Welcome to GitHub Pages
+# Programación Orientada a Objetos
+## Clase 9-03-2022
+Estos son los del semestre pasado pero no los he actualizado:
+- [Presentacion](https://github.com/gopimn/elo329_1_2022/files/8279382/00-Presentacion.pdf)
+- [Concepts](https://github.com/gopimn/elo329_1_2022/files/8279389/1-OOP_Concepts.pdf)
 
-You can use the [editor on GitHub](https://github.com/gopimn/elo329_1_2022/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Clase 14-03-2022
+También del semestre pasado:
+- [2-JavaIntroduction.pdf](https://github.com/gopimn/elo329_1_2022/files/8279401/2-JavaIntroduction.pdf)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Clase 16-03-2022
+### La clase del semestre pasado
+[3-BasicJavaLanguage.pdf](https://github.com/gopimn/elo329_1_2022/files/8279424/3-BasicJavaLanguage.pdf)
+### El código que vimos
+Con la parte de la distancia, le agregue también entrada de datos por el usuario:
+```java
+import java.util.Scanner;  // Import the Scanner class
 
-### Markdown
+public class Main {
+    public static void main(String[] args) {
+        Scanner reader = new Scanner(System.in);  // Create a Scanner object
+        System.out.println("########## Jugando con puntos ######## \ningrese su abscisa(x)");
+        int x = reader.nextInt();  // Read user input
+        System.out.println("ingrese su ordenada(y)");
+        int y = reader.nextInt();  // Read user input
+        Punto first = new Punto();
+        Punto second = new Punto(x, y);
+        if (first.equals(second))
+            System.out.println("su punto es el origen");
+        else
+            System.out.println("su punto es distinto al origen\ncon una distancia de:" + first.distance(second));
+        reader.close(); // importante cerrar el reader
+    }
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+class Punto { // nombre de la clase
+    private int x, y;
 
-```markdown
-Syntax highlighted code block
+    // atributos para almacenar el estado.
+    public Punto() { // método, define estado inicial,al momento de
+        x = y = 0; // ser creado, lo llamamos método constructor.
+    } // fin de constructor
 
-# Header 1
-## Header 2
-### Header 3
+    public Punto(int _x, int _y) { // otro constructor
+        x = _x;
+        y = _y;
+    }
 
-- Bulleted
-- List
+    public int getX() {
+        return x;
+    }
 
-1. Numbered
-2. List
+    public int getY() {
+        return y;
+    }
 
-**Bold** and _Italic_ and `Code` text
+    public boolean equals(Punto p) {
+        if (p == null)
+            return false;
+        return ((x == p.getX()) && (y == p.getY()));
+    }
 
-[Link](url) and ![Image](src)
+    // Obtiene la distancia sqrt((x1-x2)^2 + (y1-y2)^2)
+    public double distance(Punto p) {
+        if (p == null)
+            return -1; // distancia negativa, punto inexistente
+        double xx = x - p.getX(); // pow acepta double asi que lo guardamos de esta manera
+        double yy = y - p.getY(); // pow acepta double asi que lo guardamos de esta manera
+        return (Math.sqrt(Math.pow(xx, 2) + Math.pow(yy, 2)));
+    }
+}
+``` 
+para correr el codigo:
+
+``` 
+> javac Main.java && java Main
+########## Jugando con puntos ######## 
+ingrese su abscisa(x)
+0
+ingrese su ordenada(y)
+0
+su punto es el origen
 ```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gopimn/elo329_1_2022/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
