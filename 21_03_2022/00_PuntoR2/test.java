@@ -1,22 +1,6 @@
-# Programación Orientada a Objetos
-## Clase 9-03-2022
-Estos son los del semestre pasado pero no los he actualizado:
-- [Presentacion](https://github.com/gopimn/elo329_1_2022/files/8279382/00-Presentacion.pdf)
-- [Concepts](https://github.com/gopimn/elo329_1_2022/files/8279389/1-OOP_Concepts.pdf)
-
-## Clase 14-03-2022
-También del semestre pasado:
-- [2-JavaIntroduction.pdf](https://github.com/gopimn/elo329_1_2022/files/8279401/2-JavaIntroduction.pdf)
-
-## Clase 16-03-2022
-### La clase del semestre pasado
-[3-BasicJavaLanguage.pdf](https://github.com/gopimn/elo329_1_2022/files/8279424/3-BasicJavaLanguage.pdf)
-### El código que vimos
-Con la parte de la distancia, le agregue también entrada de datos por el usuario:
-```java
 import java.util.Scanner;  // Import the Scanner class
 
-public class Main {
+public class test {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);  // Create a Scanner object
         System.out.println("########## Jugando con puntos ######## \ningrese su abscisa(x)");
@@ -69,23 +53,3 @@ class Punto { // nombre de la clase
         return (Math.sqrt(Math.pow(xx, 2) + Math.pow(yy, 2)));
     }
 }
-``` 
-para correr el codigo:
-
-``` 
-> javac Main.java && java Main
-########## Jugando con puntos ######## 
-ingrese su abscisa(x)
-0
-ingrese su ordenada(y)
-0
-su punto es el origen
-```
-
-## Clase 21-03-2022
-La presentación que revisamos (semestre pasado):
-
-## Clase 23-03-2022
-- en la mañana no hay laboratorio
-- metanse porfa al link que hizo María
-- 
