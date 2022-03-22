@@ -191,7 +191,7 @@ class Employee
 ```
 ## Clase 23-03-2022
 Vamos a trabajar con esta presentación:
-[05.JavaInheritance.pdf](https://github.com/gopimn/elo329_1_2022/files/8328111/05.JavaInheritance.pdf)
+- [05.JavaInheritance.pdf](https://github.com/gopimn/elo329_1_2022/files/8328111/05.JavaInheritance.pdf)
 
 ### Noticias
 - en la mañana no hay laboratorio
