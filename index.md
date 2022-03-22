@@ -84,8 +84,116 @@ su punto es el origen
 
 ## Clase 21-03-2022
 La presentación que revisamos (semestre pasado):
+- [04.JavaClassesAndObjects.pdf](https://github.com/gopimn/elo329_1_2022/files/8328068/04.JavaClassesAndObjects.pdf)
 
+Me pille con este video, lo encontre bueno:
+- [Java Full Course ☕【𝙁𝙧𝙚𝙚】](https://www.youtube.com/watch?v=xk4_1vDrzzo&t=4234s)
+
+El ayudante termino el tutorial de vscode+java en windows (ubuntu pendiente por ahora):
+- [capsulas-elo329-SJ](https://github.com/cnilo/capsulas-elo329-SJ)
+- [videotutorial](https://drive.google.com/file/d/17Ns_GZTskopNOLs3Lix6TtX20U4OzuDm/view)
+
+Si yo fuera ustedes, me vería esta serie que es vieja pero es super deep:
+- [Programming Paradigms (Stanford)](https://www.youtube.com/watch?v=Ps8jOj7diA0&list=PL9D558D49CA734A02)
+
+También creo que esta app es buena para aprender desde cero:
+- [SoloLearn](https://www.sololearn.com/home)
+
+El código que analizamos en clase, ademas del de la clase pasada:
+
+```java
+/**
+   @version 1.00 2000-01-27
+   @author Cay Horstmann
+*/
+
+import java.util.*;
+
+public class ConstructorTest
+{
+   public static void main(String[] args)
+   {
+      // fill the staff array with three Employee objects
+      Employee[] staff = new Employee[3];
+
+      staff[0] = new Employee("Harry", 40000);
+      staff[1] = new Employee(60000);
+      staff[2] = new Employee();
+
+      // print out information about all Employee objects
+      for (int i = 0; i < staff.length; i++)
+      {
+         Employee e = staff[i];
+         System.out.println("name=" + e.getName()
+            + ",id=" + e.getId()
+            + ",salary=" + e.getSalary());
+      }
+   }
+}
+
+class Employee
+{
+   // three overloaded constructors
+   public Employee(String n, double s)
+   {
+      name = n;
+      salary = s;
+   }
+
+   public Employee(double s)
+   {
+      // calls the Employee(String, double) constructor
+      this("Employee #" + nextId, s);
+   }
+
+   // the default constructor
+   public Employee()
+   {
+      // name initialized to ""--see below
+      // salary not explicitly set--initialized to 0
+      // id initialized in initialization block
+   }
+
+   public String getName()
+   {
+      return name;
+   }
+
+   public double getSalary()
+   {
+      return salary;
+   }
+
+   public int getId()
+   {
+      return id;
+   }
+
+        // object initialization block
+	// llamado cada vez que un nuevo objeto es creado
+   {
+      id = nextId;
+      nextId++;
+   }
+
+   // static initialization block
+	// ejecutado una vez tan pronto parte el programa y antes de main.
+   static {
+      Random generator = new Random();
+      // set nextId to a random number between 0 and 9999
+      nextId = generator.nextInt(10000);
+   }
+   private int id;
+   private static int nextId;
+   private String name = ""; // instance variable initialization
+   private double salary;
+}
+```
 ## Clase 23-03-2022
+Vamos a trabajar con esta presentación:
+[05.JavaInheritance.pdf](https://github.com/gopimn/elo329_1_2022/files/8328111/05.JavaInheritance.pdf)
+
+### Noticias
 - en la mañana no hay laboratorio
 - metanse porfa al link que hizo María
 - 
