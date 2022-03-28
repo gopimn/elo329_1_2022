@@ -194,6 +194,16 @@ Vamos a trabajar con esta presentación:
 - [05.JavaInheritance.pdf](https://github.com/gopimn/elo329_1_2022/files/8328111/05.JavaInheritance.pdf)
 
 ### Noticias
-- en la mañana no hay laboratorio
-- metanse porfa al link que hizo María
-- 
+- en la mañana no hay laboratorio, por lo que se ve dificil que nos den uno para la tarde.
+- metanse porfa al link que hizo María para cambiarse de paralelo.
+
+## Clase 28-03-2022
+- miercoles no hay clase
+- esta es la presentación que revisaremos hoy:
+    + [06.DynamicBinding_AbstractClasses.pdf](https://github.com/gopimn/elo329_1_2022/files/8365718/06.DynamicBinding_AbstractClasses.pdf)
+- la planificación del curso:
+    + [programacion ELO329 1er SEM 2022.xlsx](https://github.com/gopimn/elo329_1_2022/files/8365726/programacion.ELO329.1er.SEM.2022.xlsx)
+- el profesor Werner ha estado subiendo las grabaciones de sus clases:
+    + [canal del profe](https://www.youtube.com/channel/UCjQTa48YyXQaVVxSIWBlsBQ)
+
+
