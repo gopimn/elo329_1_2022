@@ -207,3 +207,14 @@ Vamos a trabajar con esta presentación:
     + [canal del profe](https://www.youtube.com/channel/UCjQTa48YyXQaVVxSIWBlsBQ)
 
 
+## Clase 04-04-2022
+- esta fue la presentacion que revisamos:
+  + [07.Classes_Object_ArrayList_Class.pdf](https://github.com/gopimn/elo329_1_2022/files/8427138/07.Classes_Object_ArrayList_Class.pdf)
+  + capsula interesante de como usar git [ACA!](https://drive.google.com/file/d/1ZH8IUr5LVH5nLKY9nG6ZoZgwLefBdazb/view)
+  + la tarea [T1_ELO329_1s22(1).docx](https://github.com/gopimn/elo329_1_2022/files/8427174/T1_ELO329_1s22.1.docx)
+
+## Clase 06-04-2022
+- La presentacion:
+  + [08.JavaInterfaces.pdf](https://github.com/gopimn/elo329_1_2022/files/8427183/08.JavaInterfaces.pdf)
+
+
