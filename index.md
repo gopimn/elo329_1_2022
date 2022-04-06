@@ -1,4 +1,6 @@
 # Programación Orientada a Objetos
+Programación del curso: [programacion ELO329 1er SEM 2022.xlsx](https://github.com/gopimn/elo329_1_2022/files/8427191/programacion.ELO329.1er.SEM.2022.xlsx)
+
 ## Clase 9-03-2022
 Estos son los del semestre pasado pero no los he actualizado:
 - [Presentacion](https://github.com/gopimn/elo329_1_2022/files/8279382/00-Presentacion.pdf)
