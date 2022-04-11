@@ -218,5 +218,6 @@ Vamos a trabajar con esta presentación:
 ## Clase 06-04-2022
 - La presentacion:
   + [08.JavaInterfaces.pdf](https://github.com/gopimn/elo329_1_2022/files/8427183/08.JavaInterfaces.pdf)
-
+- Howto VScode+ java ubuntu
+  + [video](https://drive.google.com/file/d/18pbAxgkTohrkWFToxzIqXP-4CAC62slS/view) 
 
