@@ -221,3 +221,14 @@ Vamos a trabajar con esta presentación:
 - Howto VScode+ java ubuntu
   + [video](https://drive.google.com/file/d/18pbAxgkTohrkWFToxzIqXP-4CAC62slS/view) 
 
+## CLases 11-13_04_2022
+Las presentaciones:
+- [09.Java_InternalClasses_clone.pdf](https://github.com/gopimn/elo329_1_2022/files/8497368/09.Java_InternalClasses_clone.pdf)
+- [10.Java_LambdaExpressions.pdf](https://github.com/gopimn/elo329_1_2022/files/8497370/10.Java_LambdaExpressions.pdf)
+- [11.JavaExceptions.pdf](https://github.com/gopimn/elo329_1_2022/files/8497372/11.JavaExceptions.pdf)
+Los videos estan en AULA:
+- [inner class](https://aula.usm.cl/pluginfile.php/3424763/mod_label/intro/InnerclAss.mp4) 
+- [Exceptions 1](https://aula.usm.cl/pluginfile.php/3424763/mod_label/intro/primera%20excepciones.mp4?time=1650046455427)
+- [Exceptions 2](https://aula.usm.cl/pluginfile.php/3424763/mod_label/intro/second.mp4)
+- [files](https://aula.usm.cl/pluginfile.php/3424763/mod_label/intro/files.mp4)
+Por favor revisen la carpeta en este repo, con el codigo 11-13
