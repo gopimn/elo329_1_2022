@@ -232,3 +232,13 @@ Los videos estan en AULA:
 - [Exceptions 2](https://aula.usm.cl/pluginfile.php/3424763/mod_label/intro/second.mp4)
 - [files](https://aula.usm.cl/pluginfile.php/3424763/mod_label/intro/files.mp4)
 Por favor revisen la carpeta en este repo, con el codigo 11-13
+
+## JavaFX 02/05/2022 + 
+
+Presentación de event based programming:
+- [12.JavaEventBasedProgramming.pdf](https://github.com/gopimn/elo329_1_2022/files/8612609/12.JavaEventBasedProgramming.pdf)
+
+y el video que explica como generar un proyecto con maven:
+
+- [maven vid](https://aula.usm.cl/pluginfile.php/3424763/mod_label/intro/vid.mp4)
+
