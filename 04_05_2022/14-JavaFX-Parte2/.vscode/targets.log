@@ -1,0 +1,263 @@
+make all -f /home/null/git/elo329/códigos/14-JavaFX-Parte2/gcc --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: /home/null/git/elo329/códigos/14-JavaFX-Parte2/gcc: No such file or directory
+make: *** No rule to make target '/home/null/git/elo329/códigos/14-JavaFX-Parte2/gcc'.  Stop.
+
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed May  4 19:37:45 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+CHROME_EXECUTABLE = google-chrome-stable
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-0c74c363-be70-4830-80ec-8f4f9958080b.sock
+# environment
+VSCODE_CWD = /home/null/git/elo329/códigos/14-JavaFX-Parte2
+# environment
+WINDOWID = 62918644
+# environment
+WINDOWPATH = 1
+# environment
+NVM_DIR = /home/null/.nvm
+# default
+MAKE_COMMAND := make
+# environment
+GOPATH = /home/null/go
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/null/git/elo329/códigos/14-JavaFX-Parte2
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+MAIL = /var/spool/mail/null
+# environment
+OLDPWD = /home/null/git/elo329/códigos
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = true
+# automatic
+%F = $(notdir $%)
+# environment
+NVM_INC = /home/null/.nvm/versions/node/v14.17.6/include/node
+# environment
+VSCODE_CODE_CACHE_PATH = /home/null/.config/Code - Insiders/CachedData/ed2619e11b68bec43b788486230b0c2afeb4672d
+# environment
+LANG = C
+# environment
+XAUTHORITY = /home/null/.Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile
+MAKEFLAGS = prR
+# makefile
+CURDIR := /home/null/git/elo329/códigos/14-JavaFX-Parte2
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -prR
+# default
+.SHELLFLAGS := -c
+# environment
+NVM_BIN = /home/null/.nvm/versions/node/v14.17.6/bin
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile
+MAKEFILE_LIST := 
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 68418
+# environment
+XDG_SESSION_TYPE = tty
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+SESSION_MANAGER = local/zero:@/tmp/.ICE-unix/993,unix/zero:/tmp/.ICE-unix/993
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-insiders-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+QT_SCALE_FACTOR = 1
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+DOTNET_BUNDLE_EXTRACT_BASE_DIR = /home/null/.cache/dotnet_bundle_extract
+# environment
+SHLVL = 4
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/null/.nvm/versions/node/v14.17.6/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/home/null/.dotnet/tools:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/null/go/bin:/home/null/go/bin
+# default
+MAKEFILES := 
+# environment
+MOTD_SHOWN = pam
+# automatic
+^F = $(notdir $^)
+# environment
+MATE_DESKTOP_SESSION_ID = this-is-deprecated
+# environment
+INVOCATION_ID = 1e1bab20bc104099b573f425c7738922
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_SEAT = seat0
+# environment
+XDG_CURRENT_DESKTOP = MATE
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = MATE
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = null
+# environment
+XDG_VTNR = 1
+# makefile
+.DEFAULT_GOAL := 
+# environment
+SYSTEMD_EXEC_PID = 609
+# environment
+DISPLAY = :0.0
+# environment
+USER = null
+# default
+MAKE_VERSION := 4.3
+# environment
+QT_FONT_DPI = 96
+# environment
+_ = /usr/bin/make
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+COLORTERM = truecolor
+# environment
+GTK_OVERLAY_SCROLLING = 0
+# environment
+NVM_CD_FLAGS = 
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/null
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-c88852d8-1.67.0-insider-main.sock
+# environment
+TERM = xterm-256color
+# environment
+XDG_SESSION_ID = 1
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+VTE_VERSION = 6800
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# environment
+DOTNET_ROOT = /usr/share/dotnet
+# variable set hash-table stats:
+# Load=97/1024=9%, Rehash=0, Collisions=3/121=2%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+
+# No files, no impossibilities in 0 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/null/git/elo329/códigos/14-JavaFX-Parte2/gcc:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=4/1024=0%, Rehash=0, Collisions=0/14=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 6 / storage = 107 B / avg = 17 B
+# current buf: size = 8162 B / used = 107 B / count = 6 / avg = 17 B
+
+# strcache performance: lookups = 9 / hit rate = 33%
+# hash-table stats:
+# Load=6/8192=0%, Rehash=0, Collisions=0/9=0%
+# Finished Make data base on Wed May  4 19:37:45 2022
+
+ 
