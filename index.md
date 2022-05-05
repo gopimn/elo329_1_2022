@@ -235,10 +235,44 @@ Por favor revisen la carpeta en este repo, con el codigo 11-13
 
 ## JavaFX 02/05/2022 + 
 
-Presentación de event based programming:
+Presentaciones:
 - [12.JavaEventBasedProgramming.pdf](https://github.com/gopimn/elo329_1_2022/files/8612609/12.JavaEventBasedProgramming.pdf)
+- [13.JavaFXGraphicsProgramming.pdf](https://github.com/gopimn/elo329_1_2022/files/8636405/13.JavaFXGraphicsProgramming.pdf)
+- [14.JavaFXGraphicsProgramming_Part2.pdf](https://github.com/gopimn/elo329_1_2022/files/8636410/14.JavaFXGraphicsProgramming_Part2.pdf)
+
+
 
 y el video que explica como generar un proyecto con maven:
 
 - [maven vid](https://aula.usm.cl/pluginfile.php/3424763/mod_label/intro/vid.mp4)
 
+- [java fx 00 01](https://aula.usm.cl/pluginfile.php/3424763/mod_label/intro/video1895592790.mp4)
+- [java fx 00 02](https://aula.usm.cl/pluginfile.php/3424763/mod_label/intro/video1294040240.mp4)
+- [java fx 01 01](https://aula.usm.cl/pluginfile.php/3424763/mod_label/intro/javafx_01_01.mp4)
+- [java fx 01 02](https://aula.usm.cl/pluginfile.php/3424763/mod_label/intro/javafx_01_02.mp4)
+- [java fx 02 01](https://aula.usm.cl/pluginfile.php/3424763/mod_label/intro/javafx_02_01.mp4)
+- [java fx 02 02](https://aula.usm.cl/pluginfile.php/3424763/mod_label/intro/javafx_02_02.mp4)
+- [java fx 03 01](https://aula.usm.cl/pluginfile.php/3424763/mod_label/intro/javafx_03_01.mp4)
+- [java fx 03 02](https://aula.usm.cl/pluginfile.php/3424763/mod_label/intro/javafx_03_02.mp4)
+
+## Curso Profe agustin:
+- [presentacion](https://youtu.be/GW18agYAj_o)
+- [intro java](https://youtu.be/tvVA1Nf-jq4)
+- [tipos](https://youtu.be/Q7AdpDr2CKM)
+- [clases](https://youtu.be/MWJbtShDfnc)
+- [herencia](https://youtu.be/e6KPfsxULOg)
+- [ligado dinamico](https://youtu.be/IxxNYWL5nOA)
+- [abstract class](https://youtu.be/14Mo2g857GM)
+- [arraylist](https://youtu.be/7PN6p8VAQRM)
+- [interfaces](https://youtu.be/Fz2FlDaFocA)
+- [makefile](https://youtu.be/QyQox-rpQVE)
+- [anidadas](https://youtu.be/3g6HJzrWeDQ)
+- [lambda](https://youtu.be/fc6xY_Z8fh0)
+- [event based](https://youtu.be/ZdcyIqZwfmM)
+- [javaFX 1](https://youtu.be/1TnRdo6Qs1Y)
+- [javaFX 2](https://youtu.be/5lY0fV_4ECw)
+- [java FX 3](https://youtu.be/oOrJDIAMUrE)
+- [android](https://youtu.be/zK51aQ9iogU)
+
+## Certamenes anteriores:
+[certamenes elo.zip](https://github.com/gopimn/elo329_1_2022/files/8636420/certamenes.elo.zip)
