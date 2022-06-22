@@ -1,6 +1,6 @@
-make all -f /home/null/git/elo329/códigos/14-JavaFX-Parte2/gcc --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: /home/null/git/elo329/códigos/14-JavaFX-Parte2/gcc: No such file or directory
-make: *** No rule to make target '/home/null/git/elo329/códigos/14-JavaFX-Parte2/gcc'.  Stop.
+make all -f /home/null/git/elo329_1_2022/gcc --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: /home/null/git/elo329_1_2022/gcc: No such file or directory
+make: *** No rule to make target '/home/null/git/elo329_1_2022/gcc'.  Stop.
 
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
@@ -9,10 +9,12 @@ make: *** No rule to make target '/home/null/git/elo329/códigos/14-JavaFX-Parte
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed May  4 19:37:45 2022
+# Make data base, printed on Thu May  5 17:19:09 2022
 
 # Variables
 
+# environment
+PROVIDE_FULLSTACK_ACTION = true
 # environment
 GDK_BACKEND = x11
 # environment
@@ -22,17 +24,21 @@ NO_AT_BRIDGE = 1
 # environment
 CHROME_EXECUTABLE = google-chrome-stable
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-0c74c363-be70-4830-80ec-8f4f9958080b.sock
+UUID = d0ba5987-5ced-47df-b4b1-4957662b5c2e
 # environment
-VSCODE_CWD = /home/null/git/elo329/códigos/14-JavaFX-Parte2
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-bb796275-dacc-4960-b89b-8af383c937eb.sock
 # environment
-WINDOWID = 62918644
+VSCODE_CWD = /home/null/git/elo329_1_2022
+# environment
+WINDOWID = 65067120
 # environment
 WINDOWPATH = 1
 # environment
 NVM_DIR = /home/null/.nvm
 # default
 MAKE_COMMAND := make
+# environment
+THREE_SCALE_USER_TOKEN = 207c527cfc2a6b8dcf4fa43ad7a976da
 # environment
 GOPATH = /home/null/go
 # automatic
@@ -42,13 +48,13 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
 # environment
-PWD = /home/null/git/elo329/códigos/14-JavaFX-Parte2
+PWD = /home/null/git/elo329_1_2022
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
 MAIL = /var/spool/mail/null
 # environment
-OLDPWD = /home/null/git/elo329/códigos
+OLDPWD = /home/null/git/elo329_1_2022/04_05_2022
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
@@ -70,9 +76,11 @@ XAUTHORITY = /home/null/.Xauthority
 # makefile
 MAKEFLAGS = prR
 # makefile
-CURDIR := /home/null/git/elo329/códigos/14-JavaFX-Parte2
+CURDIR := /home/null/git/elo329_1_2022
 # environment
 VSCODE_PIPE_LOGGING = true
+# environment
+UTM_SOURCE = vscode
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
@@ -92,13 +100,13 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 68418
+VSCODE_PID = 2667
 # environment
 XDG_SESSION_TYPE = tty
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/zero:@/tmp/.ICE-unix/993,unix/zero:/tmp/.ICE-unix/993
+SESSION_MANAGER = local/zero:@/tmp/.ICE-unix/985,unix/zero:/tmp/.ICE-unix/985
 # automatic
 *F = $(notdir $*)
 # environment
@@ -136,9 +144,11 @@ MOTD_SHOWN = pam
 # environment
 MATE_DESKTOP_SESSION_ID = this-is-deprecated
 # environment
-INVOCATION_ID = 1e1bab20bc104099b573f425c7738922
+INVOCATION_ID = 0f92f91ca4fb443c82fcf102601b2145
 # environment
 VSCODE_LOG_NATIVE = false
+# environment
+RECOMMENDER_API_URL = https://gw.api.openshift.io//api/v2
 # automatic
 ?F = $(notdir $?)
 # environment
@@ -158,9 +168,9 @@ XDG_VTNR = 1
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 609
+SYSTEMD_EXEC_PID = 610
 # environment
-DISPLAY = :0.0
+DISPLAY = :0
 # environment
 USER = null
 # default
@@ -177,6 +187,8 @@ COLORTERM = truecolor
 GTK_OVERLAY_SCROLLING = 0
 # environment
 NVM_CD_FLAGS = 
+# environment
+GOLANG_EXECUTABLE = go
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -200,6 +212,8 @@ SUFFIXES :=
 # environment
 VSCODE_CLI = 1
 # environment
+TELEMETRY_ID = 10ef268f-2c51-45fd-afb3-6f3caf0643f8
+# environment
 ELECTRON_NO_ATTACH_CONSOLE = 1
 # environment
 VTE_VERSION = 6800
@@ -208,7 +222,7 @@ VTE_VERSION = 6800
 # environment
 DOTNET_ROOT = /usr/share/dotnet
 # variable set hash-table stats:
-# Load=97/1024=9%, Rehash=0, Collisions=3/121=2%
+# Load=104/1024=10%, Rehash=0, Collisions=3/128=2%
 
 # Pattern-specific Variable Values
 
@@ -239,7 +253,7 @@ all:
 #  File has not been updated.
 
 # Not a target:
-/home/null/git/elo329/códigos/14-JavaFX-Parte2/gcc:
+/home/null/git/elo329_1_2022/gcc:
 #  Implicit rule search has been done.
 #  File does not exist.
 #  File has not been updated.
@@ -252,12 +266,12 @@ all:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 6 / storage = 107 B / avg = 17 B
-# current buf: size = 8162 B / used = 107 B / count = 6 / avg = 17 B
+# strcache buffers: 1 (0) / strings = 6 / storage = 88 B / avg = 14 B
+# current buf: size = 8162 B / used = 88 B / count = 6 / avg = 14 B
 
 # strcache performance: lookups = 9 / hit rate = 33%
 # hash-table stats:
 # Load=6/8192=0%, Rehash=0, Collisions=0/9=0%
-# Finished Make data base on Wed May  4 19:37:45 2022
+# Finished Make data base on Thu May  5 17:19:09 2022
 
  

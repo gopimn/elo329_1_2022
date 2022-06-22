@@ -1,0 +1,9 @@
+make -f /home/null/git/elo329_1_2022/gcc --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/null/git/elo329_1_2022'
+make: Leaving directory '/home/null/git/elo329_1_2022'
+ 
+make: /home/null/git/elo329_1_2022/gcc: No such file or directory
+make: *** No rule to make target '/home/null/git/elo329_1_2022/gcc'.
+make: Failed to remake makefile '/home/null/git/elo329_1_2022/gcc'.
+make: *** No targets specified and no makefile found.  Stop.
+
